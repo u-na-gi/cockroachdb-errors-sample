@@ -7,6 +7,8 @@ require (
 	github.com/labstack/echo/v4 v4.12.0
 )
 
+require github.com/google/uuid v1.6.0 // indirect
+
 require (
 	github.com/cockroachdb/errors v1.11.2
 	github.com/cockroachdb/logtags v0.0.0-20230118201751-21c54148d20b // indirect

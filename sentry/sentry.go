@@ -16,7 +16,7 @@ func Init() {
 		// Enable printing of SDK debug messages.
 		// Useful when getting started or trying to figure something out.
 		Debug:            true,
-		TracesSampleRate: 0.7,
+		TracesSampleRate: 1.0,
 	})
 	if err != nil {
 		log.Fatalf("sentry.Init: %s", err)
